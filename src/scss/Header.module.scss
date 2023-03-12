@@ -1,0 +1,15 @@
+@import "./variables";
+
+.root {
+    width: 100%;
+
+    h1 {
+        color: $blue;
+        font-family: 'Righteous', cursive;
+        text-transform: uppercase;
+    }
+
+    p {
+        text-align: justify;
+    }
+}

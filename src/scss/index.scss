@@ -5,7 +5,8 @@
     margin: 0;
     list-style: none;
     outline: none;
-    font-family: "Noto Sans Mono", monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     box-sizing: border-box;
 }
 
@@ -41,7 +42,7 @@ a {
 
 body {
     color: $font;
-    background: $bg;
+    background-image: url("../img/background.svg");
     font-weight: 400;
     max-height: 100vh;
     -moz-osx-font-smoothing: grayscale;
