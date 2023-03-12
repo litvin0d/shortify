@@ -15,7 +15,7 @@ export const SendButton = () => {
     const dispatch = useDispatch();
 
     const handleButtonClick = () => {
-        const apiUrl = "https://158.160.42.48:2000/gpt";
+        const apiUrl = "http://158.160.42.48:9000/gpt";
         setPending(true);
 
         const requestData = {
